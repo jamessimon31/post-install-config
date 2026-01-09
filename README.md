@@ -192,6 +192,13 @@ Agents are **help desk staff members** who work on tickets. We are going to crea
 
 * **John** – Department: Support
 
+<img width="1969" height="1126" alt="image" src="https://github.com/user-attachments/assets/d1a8053b-950e-4c79-bddf-f1475caaf8d5" />
+
+    - We are going to create a Agent that just has access to view/accept helpdesk tickets that are assigned to him 
+
+    <img width="2175" height="927" alt="image" src="https://github.com/user-attachments/assets/a494b3e5-2391-40c8-be51-e93ca741219d" />
+
+
 ---
 
 ## Configuring Users (End Customers)
