@@ -178,6 +178,18 @@ Agents are **help desk staff members** who work on tickets. We are going to crea
 ### Example Agents
 
 * **Jane** – Department: SysAdmins
+
+  <img width="2022" height="1388" alt="image" src="https://github.com/user-attachments/assets/13e9e0c7-270d-40d9-9866-8deb4d57af73" />
+  
+    - We are going to add Jane to the **SysAdmin** Department as well as assigning her to the **Online Banking** Team
+
+      >**Note:** You will be able to set the password for these accounts before you finish creating it
+
+      <img width="2068" height="819" alt="image" src="https://github.com/user-attachments/assets/56f3c0f8-4c28-4575-b17a-8a360e6fcd60" />
+
+      <img width="2090" height="715" alt="image" src="https://github.com/user-attachments/assets/1c843747-f3a4-4825-903f-b81defefa872" />
+
+
 * **John** – Department: Support
 
 ---
