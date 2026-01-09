@@ -2,13 +2,14 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1> osTicket Post-Installation Configuration Guide </h1> 
+# osTicket Post-Installation Configuration Guide
 
 This guide walks through the post-install setup and configuration of osTicket, an open-source support ticketing platform.
 
 ---
 
-<h2> Environments and Technologies Used </h2>
+
+## Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
@@ -115,15 +116,22 @@ Departments control **ticket visibility, routing, and responsibility**.
    **Agents → Departments**
 3. Create departments based on organizational needs
 
+   <img width="2087" height="807" alt="image" src="https://github.com/user-attachments/assets/4c7be70a-ca66-41b8-8be9-d35d5a001183" />
+
+
 ### Example Department
 
 * **SysAdmins** – Handles system, server, and infrastructure-related issues
+
+<img width="2119" height="1565" alt="image" src="https://github.com/user-attachments/assets/ba7ac061-08eb-47b9-8436-023f29027bec" />
+
+>**Note:** We will add users to this Department in a later part of this lab.
 
 ---
 
 ## Configuring Teams
 
-Teams allow agents from **multiple departments** to collaborate on tickets.
+Teams allow agents from **multiple departments** to collaborate on tickets. 
 
 ### Steps
 
@@ -133,32 +141,28 @@ Teams allow agents from **multiple departments** to collaborate on tickets.
    **Agents → Teams**
 3. Create a team and assign agents from different departments
 
+<img width="2087" height="729" alt="image" src="https://github.com/user-attachments/assets/76917af2-2344-451d-a15c-fccb05b640a5" />
+
+
 ### Example Team
 
 * **Online Banking** – Includes agents from Support, Networking, and SysAdmins
 
+<img width="2259" height="790" alt="image" src="https://github.com/user-attachments/assets/e8f0c67f-91c8-4472-8e66-826e6e0a006d" />
+
 ---
 
-## User Registration Settings
+## Users
 
-By default, osTicket allows unregistered users to create tickets. For secure or enterprise environments, registration should be required.
+Make sure for the lab that the box labeled `Registration Required` is unchecked as it will alow for anyone to make a support ticket.
 
-### Steps
-
-1. Log in to the **Admin Panel**
-2. Navigate to:
-
-   **Settings → User Settings**
-3. Update the following options:
-
-* ❌ Disable **Unregistered users can create tickets**
-* ✅ Enable **Require registration and login to create tickets**
+<img width="2046" height="1331" alt="image" src="https://github.com/user-attachments/assets/389f4bcc-04af-4c39-9768-2a365307d3ab" />
 
 ---
 
 ## Configuring Agents
 
-Agents are **help desk staff members** who work on tickets.
+Agents are **help desk staff members** who work on tickets. We are going to create a couple of Test Agents.
 
 ### Steps
 
@@ -167,6 +171,9 @@ Agents are **help desk staff members** who work on tickets.
 
    **Agents → Add New**
 3. Create agent accounts and assign departments
+
+<img width="2253" height="932" alt="image" src="https://github.com/user-attachments/assets/e552a74b-1e85-4302-8576-359871e676f1" />
+
 
 ### Example Agents
 
