@@ -193,10 +193,12 @@ Agents are **help desk staff members** who work on tickets. We are going to crea
 * **John** – Department: Support
 
 <img width="1969" height="1126" alt="image" src="https://github.com/user-attachments/assets/d1a8053b-950e-4c79-bddf-f1475caaf8d5" />
+<br/>
 
-    - We are going to create a Agent that just has access to view/accept helpdesk tickets that are assigned to him 
+  - We are going to create a Agent that just has access to view/accept helpdesk tickets that are assigned to him
+<br/>
 
-    <img width="2175" height="927" alt="image" src="https://github.com/user-attachments/assets/a494b3e5-2391-40c8-be51-e93ca741219d" />
+<img width="2175" height="927" alt="image" src="https://github.com/user-attachments/assets/a494b3e5-2391-40c8-be51-e93ca741219d" />
 
 
 ---
@@ -213,10 +215,14 @@ Users are the **customers** who submit support tickets.
    **Users → Add New**
 3. Create user accounts
 
+<img width="2214" height="785" alt="image" src="https://github.com/user-attachments/assets/6acb1a48-e8d3-428c-9bd8-223e428df4ac" />
+
 ### Example Users
 
-* Karen
-* Ken
+* Karen (karen@company.com)
+* Ken (ken@company.com)
+
+<img width="1302" height="793" alt="image" src="https://github.com/user-attachments/assets/887ad971-3415-4c13-8b74-e76fc27ba611" />
 
 ---
 
@@ -232,6 +238,8 @@ SLA (Service Level Agreement) plans define **expected response and resolution ti
    **Manage → SLA**
 3. Create SLA plans based on severity
 
+<img width="2060" height="714" alt="image" src="https://github.com/user-attachments/assets/a80e40c8-2048-463e-9040-bc28f72fd866" />
+
 ### Example SLA Plans
 
 | SLA Name | Grace Period | Schedule       |
@@ -239,6 +247,12 @@ SLA (Service Level Agreement) plans define **expected response and resolution ti
 | Sev-A    | 1 Hour       | 24/7           |
 | Sev-B    | 4 Hours      | 24/7           |
 | Sev-C    | 8 Hours      | Business Hours |
+
+<img width="2161" height="1010" alt="image" src="https://github.com/user-attachments/assets/f32af418-c736-4e83-aa02-cfca4550b339" />
+</ br>
+
+<img width="1989" height="559" alt="image" src="https://github.com/user-attachments/assets/202073e9-cd3d-4404-a902-06d549beb038" />
+
 
 ---
 
@@ -254,7 +268,9 @@ Help Topics guide users when submitting tickets and help route tickets correctly
    **Manage → Help Topics**
 3. Create help topics relevant to your organization
 
-### Example Help Topics
+<img width="2419" height="977" alt="image" src="https://github.com/user-attachments/assets/052e78b7-ac89-4ce8-8e32-8829910a1309" />
+
+### Example Help Topics for the lab
 
 * Business Critical Outage
 * Personal Computer Issues
@@ -262,21 +278,11 @@ Help Topics guide users when submitting tickets and help route tickets correctly
 * Password Reset
 * Other
 
----
+<img width="2229" height="1046" alt="image" src="https://github.com/user-attachments/assets/e6595836-cfe9-42cf-975e-954ced2b6dbb" />
+</ br>
 
-## Recommended Next Steps
-
-After completing this post-install configuration, consider:
-
-* Configuring **email piping** for ticket creation
-* Integrating **Active Directory / LDAP authentication**
-* Creating **ticket filters and automation rules**
-* Enabling **logging, reporting, and auditing**
+<img width="2079" height="1152" alt="image" src="https://github.com/user-attachments/assets/9ae42d7a-b707-4add-9cad-b5b228298c67" />
 
 ---
 
-## 📘 Notes
-
-This file is intentionally kept as **one Markdown document** for easier reading on GitHub and simpler maintenance.
-
-You are encouraged to fork, modify, and adapt this guide to match your environment.
+## osTicket is now configured!
