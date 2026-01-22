@@ -11,7 +11,7 @@ This guide walks through the post-install setup and configuration of osTicket, a
 
 ## Environments and Technologies Used
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -39,9 +39,11 @@ This guide walks through the post-install setup and configuration of osTicket, a
 
 ### 🔐 Admin / Agent Login
 
-Use the following URL to access the **Admin and Agent Control Panel**:
+Use the following URL to access the **Admin and Agent Control Panel**: 
 
-`http://localhost/osTicket/scp/login.php`
+```
+http://localhost/osTicket/scp/login.php
+```
 
 This portal is used by administrators and help desk agents to manage tickets and system settings.
 
@@ -49,7 +51,11 @@ This portal is used by administrators and help desk agents to manage tickets and
 
 ### 👤 End User Portal
 
-End users (customers) submit tickets using this URL: `http://localhost/osTicket`
+End users (customers) submit tickets using this URL: 
+
+```
+http://localhost/osTicket
+```
 
 ---
 
